@@ -14,5 +14,5 @@ import tdc
 tdc_group = tdc.benchmark_group.admet_group(path = 'my_file_path/')
 benchmark = tdc_group.get('Caco2_Wang')
 train_val, test_set = benchmark['train_val'], benchmark['test']
-train_set, valid_set = tdc_group.get_train_valid_split(benchmark ='Caco2_Wang', split_type = 'default', seed =_seed) # _seed is set to 1,2,3,4,5
+train_set, valid_set = tdc_group.get_train_valid_split(benchmark ='Caco2_Wang', split_type = 'default', seed =_seed) # _seed is set to 0,1,2,3,4
 ```
