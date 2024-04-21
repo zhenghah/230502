@@ -8,6 +8,10 @@ Remember to change all file path to the path in your system.
 
 The version of Pytorch used in this work is 1.11.0. The version of RDKit used in this work is 2021.09.4
 
+The pretrained model (2-encoder model) is saved in modelsave0203.zip. Refer to 'PropertyPred.ipynb' to load the model.
+
+The datasets of odor descriptors can be obatined from https://github.com/zhenghah/0607/blob/master/od_data.ipynb
+
 The datasets used for molecular properties prediction is provided by Therapeutics Data Commons (TDC), we loaded datasets through TDC with default setting, an example of loading Caco-2 dataset is shown in bellow:
 ```
 import tdc
